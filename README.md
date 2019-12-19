@@ -8,7 +8,7 @@ To install the package, run
 
     npm install tailwindcss-open-color
 
-To active the color palette, modify your Tailwind CSS config file:
+To activate the color palette, modify your Tailwind CSS config file:
 
 ```javascript
 module.exports = {
