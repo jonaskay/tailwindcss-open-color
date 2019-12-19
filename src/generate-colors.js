@@ -1,8 +1,7 @@
 const openColor = require('open-color');
 
 function reducer(obj, hex, index) {
-  const scale = (index + 1) * 100;
-  obj[scale] = hex;
+  obj[index] = hex;
 
   return obj;
 }
