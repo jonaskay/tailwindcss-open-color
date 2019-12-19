@@ -1,0 +1,9 @@
+{
+  "name": "tailwindcss-open-color",
+  "version": "0.0.1",
+  "description": "Replace the default Tailwind CSS color palette with Open color",
+  "main": "index.js",
+  "repository": "https://github.com/jonaskay/tailwindcss-open-color",
+  "author": "Joonas Kykkänen <jonaskay@iki.fi>",
+  "license": "MIT"
+}
