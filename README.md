@@ -1,4 +1,6 @@
 # tailwindcss-open-color
+[![Build Status](https://travis-ci.com/jonaskay/tailwindcss-open-color.svg?branch=master)](https://travis-ci.com/jonaskay/tailwindcss-open-color)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5114f73f33df3766c76f/test_coverage)](https://codeclimate.com/github/jonaskay/tailwindcss-open-color/test_coverage)
 
 Replace Tailwind CSS's default color palette with [Open color](https://yeun.github.io/open-color/).
 
