@@ -1,5 +1,12 @@
 const openColor = require('open-color');
 
+function reducer(obj, hex, index) {
+  const scale = (index + 1) * 100;
+  obj[scale] = hex;
+
+  return obj;
+}
+
 function generateColors() {
   const colors = {};
 
@@ -9,12 +16,7 @@ function generateColors() {
     if (typeof color === 'string') {
       colors[name] = color;
     } else {
-      colors[name] = color.reduce(function(obj, hex, index) {
-        const scale = (index + 1) * 100;
-        obj[scale] = hex;
-
-        return obj;
-      }, {});
+      colors[name] = color.reduce(reducer, {});
     }
   });
 
